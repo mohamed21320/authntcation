@@ -1,0 +1,37 @@
+body{
+background-color: rgb(13, 61, 61);
+
+}
+.container{
+    text-align: center;
+    width: 65%;
+  margin: auto;
+background-color: rgb(13, 61, 61) ;
+box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+h2{
+    color: dodgerblue;
+}
+
+button,input{
+    background-color:rgb(13, 61, 61) ;
+    color:dodgerblue ;
+    width: 100%;
+border-radius: 5px;
+border: 1px solid #ffffffcb;
+padding: 5px;
+}
+button{
+border: 1px solid dodgerblue;
+}
+button:hover{
+    background-color: dodgerblue ;
+    color: #ffffffcb;
+}
+p,a{
+    color: aliceblue;
+    text-decoration: none;
+}
+input::placeholder{
+    color: #ffffffcb;
+}

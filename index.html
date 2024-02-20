@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href=" css/login.css" />
+  </head>
+  <body>
+    <div class="container my-5 p-4">
+      <h2>Smart Login System</h2>
+      <input
+        id="inputEmail"
+        type="email"
+        class="my-3"
+        placeholder=" Enter your email"
+      />
+      <input
+        id="inputPassword"
+        type="password"
+        class="mb-5"
+        placeholder=" Enter your password"
+      />
+      <div id="message" class="d-none text-danger mb-2">
+        All email already exists
+      </div>
+      <button id="btnLogIn" class="mb-1">Login</button>
+      <p>Don't have an account?<a href="signup.html"> Sign Up</a></p>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/login.js"></script>
+  </body>
+</html>
